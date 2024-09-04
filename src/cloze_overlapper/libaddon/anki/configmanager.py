@@ -42,7 +42,7 @@ import io
 from anki.utils import json
 from anki.hooks import addHook, runHook
 
-from .._vendor.packaging import version
+from packaging import version
 
 from ..utils import deepMergeDicts
 from ..platform import ANKI20, PATH_ADDON, MODULE_ADDON
